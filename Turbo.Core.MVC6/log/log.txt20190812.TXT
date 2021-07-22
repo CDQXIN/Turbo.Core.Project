@@ -1,0 +1,327 @@
+2019-08-12 20:28:19,518 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 20:28:45,163 [5] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV4285RJTG", Request id "0HLOV4285RJTG:00000002": An unhandled exception was thrown by the application.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Ruanmou.Core.Utility.Filters.CustomAuthroreizActionFilterAttribute' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\ResolutionExtensions.cs:line 880
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Internal.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Internal.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Internal.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 20:29:47,383 [5] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV4285RJTG", Request id "0HLOV4285RJTG:00000003": An unhandled exception was thrown by the application.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Ruanmou.Core.Utility.Filters.CustomAuthroreizActionFilterAttribute' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\ResolutionExtensions.cs:line 880
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Internal.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Internal.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Internal.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 20:29:48,704 [17] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV4285RJTG", Request id "0HLOV4285RJTG:00000004": An unhandled exception was thrown by the application.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Ruanmou.Core.Utility.Filters.CustomAuthroreizActionFilterAttribute' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\ResolutionExtensions.cs:line 880
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Internal.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Internal.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Internal.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 20:30:18,573 [5] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV4285RJTG", Request id "0HLOV4285RJTG:00000005": An unhandled exception was thrown by the application.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Ruanmou.Core.Utility.Filters.CustomAuthroreizActionFilterAttribute' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\ResolutionExtensions.cs:line 880
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Internal.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Internal.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Internal.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 20:31:19,677 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 20:34:22,988 [4] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV43TQS0FG", Request id "0HLOV43TQS0FG:00000005": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found.
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAlwaysRunResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 20:35:19,186 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 20:36:04,283 [4] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统
+2019-08-12 20:36:48,406 [10] DEBUG Ruanmou.Core.Utility.Filters.CustomActionFilterAttribute - this user is Richard
+2019-08-12 20:43:40,074 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 20:43:51,272 [4] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV4ARD052O", Request id "0HLOV4ARD052O:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authentication handlers are registered. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("myScheme",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Ruanmou.Core.MVC6.Startup.<>c__DisplayClass5_0.<<Configure>b__11>d.MoveNext() in D:\软谋教育\Ruanmou\02.NetCore备课\20190805Advanced12Course79Core-5\Ruanmou.Richard.Core.Project\Ruanmou.Core.MVC6\Startup.cs:line 162
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 20:44:02,177 [5] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV4ARD052O", Request id "0HLOV4ARD052O:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No sign-in authentication handlers are registered. Did you forget to call AddAuthentication().AddCookies("myScheme",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.SignInAsync(HttpContext context, String scheme, ClaimsPrincipal principal, AuthenticationProperties properties)
+   at Ruanmou.Core.MVC6.Startup.<>c.<<Configure>b__5_8>d.MoveNext() in D:\软谋教育\Ruanmou\02.NetCore备课\20190805Advanced12Course79Core-5\Ruanmou.Richard.Core.Project\Ruanmou.Core.MVC6\Startup.cs:line 145
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 20:44:11,071 [4] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV4ARD052O", Request id "0HLOV4ARD052O:00000003": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No sign-in authentication handlers are registered. Did you forget to call AddAuthentication().AddCookies("myScheme",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.SignInAsync(HttpContext context, String scheme, ClaimsPrincipal principal, AuthenticationProperties properties)
+   at Ruanmou.Core.MVC6.Startup.<>c.<<Configure>b__5_8>d.MoveNext() in D:\软谋教育\Ruanmou\02.NetCore备课\20190805Advanced12Course79Core-5\Ruanmou.Richard.Core.Project\Ruanmou.Core.MVC6\Startup.cs:line 145
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 20:44:17,197 [4] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV4ARD052O", Request id "0HLOV4ARD052O:00000004": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No sign-in authentication handlers are registered. Did you forget to call AddAuthentication().AddCookies("myScheme",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.SignInAsync(HttpContext context, String scheme, ClaimsPrincipal principal, AuthenticationProperties properties)
+   at Ruanmou.Core.MVC6.Startup.<>c.<<Configure>b__5_8>d.MoveNext() in D:\软谋教育\Ruanmou\02.NetCore备课\20190805Advanced12Course79Core-5\Ruanmou.Richard.Core.Project\Ruanmou.Core.MVC6\Startup.cs:line 145
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 20:45:47,282 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 20:48:34,073 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 20:48:52,669 [4] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV4DL71BLT", Request id "0HLOV4DL71BLT:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authentication handlers are registered. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("myScheme",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Ruanmou.Core.MVC6.Startup.<>c__DisplayClass5_0.<<Configure>b__11>d.MoveNext() in D:\软谋教育\Ruanmou\02.NetCore备课\20190805Advanced12Course79Core-5\Ruanmou.Richard.Core.Project\Ruanmou.Core.MVC6\Startup.cs:line 162
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 20:52:54,400 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 20:53:27,786 [5] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV4G6T4UVA", Request id "0HLOV4G6T4UVA:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authentication handlers are registered. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("myScheme",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Ruanmou.Core.MVC6.Startup.<>c__DisplayClass5_0.<<Configure>b__11>d.MoveNext() in D:\软谋教育\Ruanmou\02.NetCore备课\20190805Advanced12Course79Core-5\Ruanmou.Richard.Core.Project\Ruanmou.Core.MVC6\Startup.cs:line 161
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 20:55:14,398 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 20:55:27,273 [5] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV4HAFQII7", Request id "0HLOV4HAFQII7:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authentication handlers are registered. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("myScheme",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Ruanmou.Core.MVC6.Startup.<>c__DisplayClass5_0.<<Configure>b__11>d.MoveNext() in D:\软谋教育\Ruanmou\02.NetCore备课\20190805Advanced12Course79Core-5\Ruanmou.Richard.Core.Project\Ruanmou.Core.MVC6\Startup.cs:line 161
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 20:57:25,883 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 20:58:52,885 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 21:27:50,304 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 21:44:37,660 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 21:46:47,887 [5] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统
+2019-08-12 21:51:08,289 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 21:51:26,068 [4] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV5GGOGE8A", Request id "0HLOV5GGOGE8A:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Cookie'. The registered schemes are: Cookies. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Cookie",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 21:51:52,876 [5] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统
+2019-08-12 21:52:10,571 [12] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV5GGOGE8A", Request id "0HLOV5GGOGE8A:00000005": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Cookie'. The registered schemes are: Cookies. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Cookie",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 21:52:57,904 [19] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV5GGOGE8A", Request id "0HLOV5GGOGE8A:00000006": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Cookie'. The registered schemes are: Cookies. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Cookie",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 21:53:05,581 [5] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV5GGOGE8A", Request id "0HLOV5GGOGE8A:00000007": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Cookie'. The registered schemes are: Cookies. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Cookie",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 21:53:06,702 [5] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV5GGOGE8A", Request id "0HLOV5GGOGE8A:00000008": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Cookie'. The registered schemes are: Cookies. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Cookie",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 21:53:07,678 [5] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV5GGOGE8A", Request id "0HLOV5GGOGE8A:00000009": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Cookie'. The registered schemes are: Cookies. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Cookie",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 21:53:08,377 [20] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV5GGOGE8A", Request id "0HLOV5GGOGE8A:0000000A": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Cookie'. The registered schemes are: Cookies. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Cookie",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 21:54:51,415 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 21:56:00,377 [4] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统
+2019-08-12 21:59:30,941 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 22:00:45,306 [5] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统
+2019-08-12 22:09:13,812 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 22:09:56,403 [11] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV5QL7F2J4", Request id "0HLOV5QL7F2J4:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found.
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAlwaysRunResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 22:12:46,736 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 22:13:10,607 [10] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV5SK34EKK", Request id "0HLOV5SK34EKK:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found.
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAlwaysRunResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 22:13:36,704 [13] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV5SK34EKK", Request id "0HLOV5SK34EKK:00000003": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found.
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAlwaysRunResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 22:13:37,666 [13] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOV5SK34EKK", Request id "0HLOV5SK34EKK:00000004": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found.
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAlwaysRunResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-12 22:15:44,777 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 22:19:08,454 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-12 22:21:20,500 [16] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统

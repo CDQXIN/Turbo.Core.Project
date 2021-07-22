@@ -1,0 +1,12 @@
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Service\bin\Debug\netcoreapp2.2\Turbo.Core.Service.deps.json
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Service\bin\Debug\netcoreapp2.2\Turbo.Core.Service.dll
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Service\bin\Debug\netcoreapp2.2\Turbo.Core.Service.pdb
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Service\bin\Debug\netcoreapp2.2\Turbo.Core.Interface.dll
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Service\bin\Debug\netcoreapp2.2\Turbo.Core.Interface.pdb
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Service\obj\Debug\netcoreapp2.2\Turbo.Core.Service.csproj.AssemblyReference.cache
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Service\obj\Debug\netcoreapp2.2\Turbo.Core.Service.AssemblyInfoInputs.cache
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Service\obj\Debug\netcoreapp2.2\Turbo.Core.Service.AssemblyInfo.cs
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Service\obj\Debug\netcoreapp2.2\Turbo.Core.Service.csproj.CoreCompileInputs.cache
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Service\obj\Debug\netcoreapp2.2\Turbo.Core.Service.csproj.CopyComplete
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Service\obj\Debug\netcoreapp2.2\Turbo.Core.Service.dll
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Service\obj\Debug\netcoreapp2.2\Turbo.Core.Service.pdb

@@ -1,0 +1,10 @@
+2019-08-01 20:42:33,292 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-01 20:43:45,197 [6] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - this is ILoggerFactory logger
+2019-08-01 20:43:45,219 [6] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - this is ILogger<SecondController> debugger 
+2019-08-01 21:09:56,412 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-01 21:13:16,195 [4] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - this is ILoggerFactory logger
+2019-08-01 21:13:16,212 [4] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - this is ILogger<SecondController> debugger 
+2019-08-01 21:49:17,286 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-01 21:49:51,109 [4] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - this is ILoggerFactory logger
+2019-08-01 21:49:51,170 [4] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - this is ILogger<SecondController> debugger 
+2019-08-01 21:59:04,930 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error

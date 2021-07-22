@@ -1,0 +1,7 @@
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Framework.Console\bin\Debug\Ruanmou.Framework.Console.exe.config
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Framework.Console\bin\Debug\Ruanmou.Framework.Console.exe
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Framework.Console\bin\Debug\Ruanmou.Framework.Console.pdb
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Framework.Console\obj\Debug\Turbo.Framework.Console.csproj.AssemblyReference.cache
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Framework.Console\obj\Debug\Turbo.Framework.Console.csproj.CoreCompileInputs.cache
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Framework.Console\obj\Debug\Ruanmou.Framework.Console.exe
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Framework.Console\obj\Debug\Ruanmou.Framework.Console.pdb

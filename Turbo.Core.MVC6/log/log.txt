@@ -1,0 +1,90 @@
+2019-08-13 09:24:49,491 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 09:26:14,373 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 09:26:59,593 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 09:27:27,756 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 09:31:46,701 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 09:56:14,970 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 09:56:29,869 [11] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLOVI5OVJ97O", Request id "0HLOVI5OVJ97O:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: No authentication handlers are registered. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("myScheme",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Ruanmou.Core.MVC6.Startup.<>c__DisplayClass5_0.<<Configure>b__11>d.MoveNext() in D:\软谋教育\Ruanmou\02.NetCore备课\20190805Advanced12Course79Core-5\Ruanmou.Richard.Core.Project\Ruanmou.Core.MVC6\Startup.cs:line 136
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-08-13 10:08:40,129 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 10:20:57,139 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 10:30:28,487 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 10:32:19,845 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 10:33:06,382 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 10:36:35,633 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 10:45:35,415 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 10:45:43,178 [8] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found.
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAlwaysRunResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-13 10:50:09,693 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 10:55:47,878 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 11:04:37,566 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 11:09:46,552 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 11:10:15,827 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 11:14:06,826 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 11:14:13,187 [8] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator -> Microsoft.AspNetCore.Authorization.DefaultAuthorizationService -> Microsoft.AspNetCore.Authorization.DefaultAuthorizationHandlerProvider -> λ:Microsoft.AspNetCore.Authorization.IAuthorizationHandler[] -> Ruanmou.Core.Utility.Authentications.AdvancedRequirement. ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Ruanmou.Core.Utility.Authentications.AdvancedRequirement' can be invoked with the available services and parameters:
+Cannot resolve parameter 'System.String role' of constructor 'Void .ctor(System.String)'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Activators\Reflection\ReflectionActivator.cs:line 160
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Activators\Reflection\ReflectionActivator.cs:line 120
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget) in C:\projects\autofac\src\Autofac\Core\Resolving\InstanceLookup.cs:line 117
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget) in C:\projects\autofac\src\Autofac\Core\Resolving\InstanceLookup.cs:line 135
+   at Autofac.Core.Resolving.InstanceLookup.Execute() in C:\projects\autofac\src\Autofac\Core\Resolving\InstanceLookup.cs:line 83
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Resolving\ResolveOperation.cs:line 131
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\Core\Resolving\ResolveOperation.cs:line 84
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance) in C:\projects\autofac\src\Autofac\ResolutionExtensions.cs:line 1041
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters) in C:\projects\autofac\src\Autofac\ResolutionExtensions.cs:line 871
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-08-13 11:16:35,248 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 11:41:49,837 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 11:47:37,979 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 11:48:53,724 [9] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统
+2019-08-13 11:50:41,033 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 11:51:04,460 [6] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统
+2019-08-13 11:51:27,972 [7] DEBUG Ruanmou.Core.Utility.Filters.CustomAuthorizeActionFilterAttribute - userName is Richard
+2019-08-13 12:14:12,885 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 12:28:33,879 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 12:29:13,521 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 12:29:55,034 [8] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统
+2019-08-13 12:32:18,885 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 12:35:48,718 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 12:36:26,339 [11] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统
+2019-08-13 12:38:47,232 [9] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统
+2019-08-13 12:42:03,768 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 12:43:02,200 [17] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统
+2019-08-13 12:58:06,436 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 12:59:17,852 [12] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统
+2019-08-13 13:01:18,638 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 13:01:44,559 [10] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统
+2019-08-13 13:12:59,369 [1] ERROR Ruanmou.Core.MVC6.Startup - this Startup Error
+2019-08-13 13:13:41,115 [7] DEBUG Ruanmou.Core.MVC6.Controllers.SecondController - Richard 1 登陆系统

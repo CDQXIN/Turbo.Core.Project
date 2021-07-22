@@ -1,0 +1,9 @@
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Utility\bin\Debug\netcoreapp2.2\Turbo.Core.Utility.deps.json
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Utility\bin\Debug\netcoreapp2.2\Turbo.Core.Utility.dll
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Utility\bin\Debug\netcoreapp2.2\Turbo.Core.Utility.pdb
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Utility\obj\Debug\netcoreapp2.2\Turbo.Core.Utility.csproj.AssemblyReference.cache
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Utility\obj\Debug\netcoreapp2.2\Turbo.Core.Utility.AssemblyInfoInputs.cache
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Utility\obj\Debug\netcoreapp2.2\Turbo.Core.Utility.AssemblyInfo.cs
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Utility\obj\Debug\netcoreapp2.2\Turbo.Core.Utility.csproj.CoreCompileInputs.cache
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Utility\obj\Debug\netcoreapp2.2\Turbo.Core.Utility.dll
+E:\Ruanmou.Richard.Core.Project\Ruanmou.Core.Utility\obj\Debug\netcoreapp2.2\Turbo.Core.Utility.pdb
